@@ -22,6 +22,10 @@ body {
 	font-size: 18pt;
 }
 
+a {
+	color: hsl(209, 13%, 64%);
+}
+
 main {
 	margin: 0 auto;
 	max-width: 1200px;
@@ -66,7 +70,8 @@ kbd {
 .summary {
 	background-color: hsl(213, 59%, 33%);
 	border: 1px solid hsl(213, 59%, 52%);
-	color: hsl(182, 8%, 58%);
+	color: hsl(182, 8%, 70%);
+	margin-top: 2em;
 }
 
 .summary a {
