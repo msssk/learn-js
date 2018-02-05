@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>JavaScript Basics: console</title>
+		<link href="../css/main.css" rel="stylesheet">
+	</head>
+
+	<body>
+		<main>
+			<p>Web browsers can load JavaScript code from a file and run it. They can also run code live as you type it.</p>
+
+			<div class="box action">Press <kbd>F12</kbd> to open the developer tools, then click on the <code>Console</code> tab.</div>
+
+			<p>You can type code directly, hit <kbd>Enter</kbd>, and it will be executed. Try some simple expressions:</p>
+
+			<ul class="code">
+				<li>1</li>
+				<li>1 + 1</li>
+				<li>'green'</li>
+				<li>green</li>
+			</ul>
+
+			<p>You should have gotten an error after that last one. This is because JavaScript doesn't know what
+				<code>green</code> is. But you can tell JavaScript what <code>green</code> is! Try the following:
+			</p>
+
+			<ul class="code">
+				<li>green = 5</li>
+				<li>green</li>
+			</ul>
+
+			<p>You've just defined the variable <code>green</code>. You can now use it:</p>
+
+			<ul class="code">
+				<li>green + 1</li>
+			</ul>
+
+			<div class="box tip">
+				JavaScript has a set of defined words that can be used in your code, but can't be used as variable
+				names.
+				<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Lexical_grammar#Keywords">JavaScript keywords</a>
+			</div>
+
+			<p>
+				So far you've done very simple things. Information and values are collectively referred to as "data" in
+				programming. The kind of data you are storing is referred to as a "data type". In JavaScript there are
+				a few simple data types known as "primitive data types:"
+			</p>
+
+			<ol>
+				<li><code>string</code>: Examples: "green", "Name", "A full sentence can be a string"</li>
+				<li><code>number</code>: Examples: 1, 5, -5000, 1e5</li>
+				<li><code>boolean</code>: Examples: <code>true</code>, <code>false</code></li>
+			</ol>
+
+			<div class="box tip">
+				This is good to get you started, but there's <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures">
+				a lot more to learn about JavaScript data types</a>.
+			</div>
+
+			<div class="box summary">
+				Reviewing what you've done so far, you should notice a few things:
+
+				<ol>
+					<li>JavaScript has <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators">operators</a>,
+						you've already used <code>+</code> and <code>=</code></li>
+					<li>When you want to create some data you can store it in a "variable"</li>
+					<li>Variables are assigned a value with the <code>=</code> operator</li>
+				</ol>
+			</div>
+		</main>
+	</body>
+</html>
